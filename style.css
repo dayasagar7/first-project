@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+
+
+/* ................................navsection......................................  */
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 72px;
+
+}
+
+.head-section {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9) url(city.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: transparent;
+    width: 100%;
+    position: sticky;
+}
+
+.logo {
+    padding: 10px 20px;
+    width: 25%;
+
+}
+
+.manu-scetion {
+    width: 50%;
+}
+
+.manu-scetion ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.manu-scetion li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.manu-section li a:hover{
+    color: blueviolet;
+}
+
+
+
+.right-section {
+    width: 25%;
+    /* padding-right: 15px; */
+    padding-left: 130px;
+}
+
+#search{
+    width: 330px;
+    font-size: 13px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+
+.btn{
+    font-size: 15px;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+
+/*.............................................. sub scetion............................. */
+
+.subsection2 img {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.subsection {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 85vh;
+    max-width: 80%;
+}
+
+.subsection1{
+    color: white;
+    width: 80%;
+    padding-left: 450px;
+}
+.subsection2{
+    /* width: 20%; */
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 6px;
+    color: white;
+}
+
+p{
+    font-size: 17px;
+    padding-bottom: 10px;
+
+}
+
+.btn1{
+font-size: 25px;
+padding: 5px 10px;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+/* ................third section...................... */
+
+.third-section{
+    width: 100%;
+    padding: 30px 125px;
+}
+
+
+
+h3{
+    color: black;
+    font-size: 35px;
+    padding-left:500px;
+    padding-top: 10px;
+}
+p{
+    font-size: 34px;
+    padding: 5px 30px;
+}
+
+
+.third-sub2-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.third-sub2-section img{
+    height: 200px;
+    width: 200px;
+    /* padding: 20px 30px; */
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
